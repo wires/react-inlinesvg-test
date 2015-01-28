@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="-50 -50 200 200"
+     style="background: white">
+
+    <filter id="droplight" height="150%" width="150%">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="3.5"/>
+        <feOffset dx="0" dy="0" result="offsetblur"/>
+        <feComponentTransfer>
+            <feFuncR type="discrete" tableValues="0"/>
+            <feFuncG type="discrete" tableValues="0"/>
+            <feFuncB type="discrete" tableValues="0"/>
+        </feComponentTransfer>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+
+    <polygon points="58.263,0.056 100,41.85 58.263,83.641 30.662,83.641 62.438,51.866 0,51.866 0,31.611 62.213,31.611 30.605,0 58.263,0.056" fill="black" filter="url(#droplight)"/>
+
+</svg>
