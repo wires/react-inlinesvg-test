@@ -1,3 +1,8 @@
-# Template
+# React-inlinesvg doesn't repaint when src changes
 
-gulp + live-reload + browserify + react template
+	npm i
+	gulp
+
+Browse to http://localhost:3003/
+
+the arrow should be randomly alternating colour, black-white.
