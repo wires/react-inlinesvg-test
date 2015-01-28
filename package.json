@@ -1,0 +1,32 @@
+{
+  "name": "react-inlinesvg-test",
+  "version": "1.0.0",
+  "description": "seems this doesn't work well with router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wires/react-inlinesvg-test.git"
+  },
+  "author": "",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/wires/react-inlinesvg-test/issues"
+  },
+  "homepage": "https://github.com/wires/react-inlinesvg-test",
+  "devDependencies": {
+    "connect-livereload": "^0.5.2",
+    "express": "^4.11.1",
+    "gulp": "^3.8.10",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.4.3",
+    "gulp-livereload": "^3.6.0",
+    "gulp-load-plugins": "^0.8.0",
+    "reactify": "^1.0.0"
+  },
+  "dependencies": {
+    "react": "^0.12.2"
+  }
+}

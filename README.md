@@ -1,2 +1,3 @@
-# react-inlinesvg-test
-seems this doesn't work well with router
+# Template
+
+gulp + live-reload + browserify + react template
